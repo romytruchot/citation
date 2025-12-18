@@ -1,0 +1,13 @@
+nav{
+ background-color: magenta;
+ color: white;
+ padding: 1rem;
+
+ position: absolute;
+ bottom:1rem;
+ left:1rem;
+}
+
+nav a {
+ color: #FFF;
+}
