@@ -5,24 +5,32 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
 	
-	<style>
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');
+<style>
+	@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
 	
-	/* TEXTE */
+	/* FONT */
 	body {
-		font-family: "Cormorant Garamond", serif;
+		font-family: "Google Sans", sans-serif;
 	}
+
+	/* TYPO */
 	h1 {
-		font-size: 12vw;
-		letter-spacing: -0.02em;
-		text-align: right;
+		font-size: 7vw;
+		line-height: 95%;
+		font-style: italic;
+		max-width: 15ch;
+
+	}
+
+	p{
+		font-size: 4vw;
 	
 	}
 	
 	/* COULEUR */
 	body {
-		background-color: rgb(255, 255, 255);
-		color: rgb(0, 0, 0);
+		background-color: rgb(96, 51, 27);
+		color: rgb(242, 255, 93);
 	
 	}
 
@@ -35,21 +43,36 @@
 		flex-direction: column;
 
 	}
-	h1{
-		max-width: 15ch;
-		
-	}
 
-	</style>
+	.citation {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+}
 
-</head>
-<body>
-	<h1>”Mes confessions dans des écrits épistolaires, sans concession, le cœur braqué par des pistolets“</h1>
-	<p>– Jazzy Bazz</p>
 
-	<ul>
-		<li> <a href="index.html"> menu </a> </li>
-	</ul>
+</style>
+
+
+	<!-- TEXTE - CONTENU -->
+	</head>
+		<body>
+			<div class="citation">
+				<h1>”Les erreurs <br> font partie <br> du processus.“</h1>
+				<p>Paula Scher</p>
+			</div>
+			
+
+
+	<!-- NAVIGATION -->
+	<link rel="stylesheet" href="navigation.css">
+	
+	<nav>
+		<a href="index.html">menu</a>
+		<a href="citation_02.html">retour</a>
+		<a href="citation_04.html">next</a>
+	</nav>
+
 
 </body>
 </html>

@@ -6,11 +6,14 @@
 	<title>Document</title>
 	
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Hubot+Sans:wdth,wght@90,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 	
 	/* FONT */
 	body {
-		 font-family: "Hubot Sans", sans-serif;
+		font-family: "Merriweather Sans", sans-serif;
+
+
+	 /* TYPO */
   		font-optical-sizing: auto;
   		font-weight: 500;
   		font-style: normal;
@@ -19,24 +22,20 @@
 		 
 	}
 
-	/* TYPO */
 	h1 {
-		font-size: 7vw;
-		letter-spacing: -0.02em;
-		text-align: right;
+		font-size: 3vw;
+		text-align: left;
 	
 	}
 	p {
 		font-size: 3vw;
-		letter-spacing: -0.02em;
-		text-align: right;
 	
 	}
 	
 	/* COULEUR */
 	body {
-		background-color: rgb(0, 1, 2);
-		color: rgb(17, 34, 181);
+		background-color: rgb(67, 0, 133);
+		color: rgb(98, 255, 51);
 	
 	}
 
@@ -57,16 +56,37 @@
 		
 	}
 
-	</style>
+	.citation {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
 
-</head>
-<body>
-	<h1>““</h1>
+
+</style>
+
+
+	<!-- TEXTE - CONTENU -->
+
+	</head>
+		<body>
+		<div class="citation">
+			<h1>“La clé pour trouver de bonnes idées est justement de ne pas avoir les idées, mais de les exécuter. Les meilleures idées naissent d’un problème. En tant que designers, les briefs sont des problèmes, et les concepts sont des solutions.“</h1>
+			<p>Kate Moross</p>
+
+		</div>
+
+
+	<!-- NAVIGATION -->
+	 <link rel="stylesheet" href="navigation.css">
+
+	<nav>
+			<a href="index.html">menu</a>
+			<a href="citation_09.html">retour</a>
+			<a href="citation_11.html">next</a>
+
+	</nav>
 	
-
-	<ul>
-		<li> <a href="index.html"> menu </a> </li>
-	</ul>
 	
 
 </body>

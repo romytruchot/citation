@@ -1,13 +1,105 @@
-nav{
- background-color: magenta;
- color: white;
- padding: 1rem;
+	/* nav{
+		 color: #ffffff;
+		 padding: 1rem;
+		 position: fixed;
+		top:1rem;
+		 left:1rem;
+		 width: 300px;
 
- position: absolute;
- bottom:1rem;
- left:1rem;
-}
+} */
+
+
+	 /* body {
+		align-content: center; 
+		justify-content: space-between;
+
+ } */
+
 
 nav a {
- color: #FFF;
+ color: #ffffff;
+
 }
+
+
+/* CHAT GPT */
+	nav {
+		position: fixed;
+		top: 1rem;
+		left: 1rem;
+		width: 300px;
+		font-family: "Public Sans", sans-serif;
+		font-size: 1rem;
+		color: #ffffff;
+}
+
+	nav a {
+		color: #ffffff;
+		text-decoration: none;
+		margin-right: 1rem;
+}
+
+	nav a:hover {
+		text-decoration: underline;
+}
+
+ul a {
+	color: #ffffff;
+	text-decoration: none;
+	font-family: "Public Sans", sans-serif;
+}
+
+ul a:hover {
+	text-decoration: underline;
+}
+
+nav {
+	position: fixed;
+	top: 1rem;
+	right: 1rem;
+
+	font-family: "Public Sans", sans-serif;
+	font-size: 1rem;
+	color: white;
+
+	display: flex;
+	gap: 1rem;
+}
+
+
+nav a {
+	color: white;
+	text-decoration: none;
+}
+
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+/* CHAT GPT */
+/* NAVIGATION GLOBALE */
+.navigation {
+	position: fixed;
+	top: 1rem;
+	right: 1rem;
+	z-index: 1000;
+
+	display: flex;
+	gap: 1rem;
+
+	font-family: "Public Sans", sans-serif;
+	font-size: 1rem;
+}
+
+/* LIENS */
+.navigation a {
+	color: white;
+	text-decoration: none;
+}
+
+/* HOVER */
+.navigation a:hover {
+	text-decoration: underline;
+}
+

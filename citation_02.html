@@ -5,54 +5,69 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
 	
-	<style>@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+<style>
+	@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 	
-	/* MISE EN PAGE */
+	/* FONT */
 	body {
-		font-family: "public sans" , sans-serif;
+		font-family: "DM Sans", sans-serif;
 	}
+
+	/* TYPO */
 	h1 {
-		font-size: 8vw;
-		letter-spacing: -0.02em;
-	
+		font-size: 6vw;
+		line-height: 100%;
 	}
 	
 	/* COULEUR */
 	body {
-		background-color: rgb(136, 102, 171);
-		color: rgb(255, 238, 0);
-	
+		background-color: rgb(255, 138, 214);
+		color: rgb(123, 33, 33);
 	}
 
 	/* MISE EN PAGE */
 	body{
-		min-height: 100vw;
 		display: flex;
-		justify-content: center;
-		align-items: center;
+		min-height: 100vw;
 		flex-direction: column;
-
+		justify-content: flex-end;
+		align-items: flex-end;
+		padding-right: 5vw;
+		padding-bottom: 5vw;
+		
 	}
+
 	h1{
-		max-width: 15ch;
+		text-align: right;
 	}
 
-	</style>
+	p{
+		writing-mode: vertical-rl;
+		text-align: right;
+		margin-top: 2vw;
+		margin-right: -1.5vw; 
+	
+	}
 
-</head>
-<body>
-	<h1>“It took me a few seconds to draw it, but it took me 34 years to learn how to draw it in a few seconds.“</h1>
-	<p>– Paula Scher</p>
+</style>
 
-	<ul>
-		<li> <a href="index.html"> menu </a> </li>
-	</ul>
 
-	<!-- <link rel="stylesheet" href="navigation.css">
-		 
-		 <nav>
-			<a href="index.html">retour</a>
-		</nav> -->
+	<!-- TEXTE - CONTENU -->
+	</head>
+		<body>
+			<h1>"La <br> grille <br> est <br> un <br> outil,<br> pas <br> une <br> prison."</h1>
+			<p>Josef Müller-Brockmann</p>
+
+
+	<!-- NAVIGATION -->
+	<link rel="stylesheet" href="navigation.css">
+
+	<nav>
+		<a href="index.html">menu</a>
+		<a href="citation_01.html">retour</a>
+		<a href="citation_03.html">next</a>
+			
+	</nav>
 
 </body>
 </html>
